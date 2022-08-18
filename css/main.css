@@ -24,7 +24,7 @@ body {
   clip: rect(0 0 0 0);
 }
 
-.footer-form-sumbit, .second-section, .footer-list, .footer-list-link, .client-link, .list-client, .social-list-link, .our-advantage, .hero-btn, .contact, .modal-close-btn {
+.footer__form__sumbit, .portfolio__section__nav, .media__list, .media__list__link, .client-link, .list-client, .social-list-link, .our-advantage, .hero-btn, .contact, .modal-close-btn {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -592,7 +592,7 @@ button {
   padding-bottom: 60px;
 }
 
-.foot-logo {
+.footer__logo {
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
@@ -602,26 +602,26 @@ button {
   margin-bottom: 20px;
 }
 
-.link-footer:not(:last-child) {
+.footer__link:not(:last-child) {
   margin-bottom: 9px;
 }
 
-.address-footer {
+.footer__address {
   font-style: normal;
   margin-top: 20px;
 }
 
-.logo-part-footer {
+.footer__logo--part {
   color: var(--accent-second-color);
 }
 
-.address-main {
+.footer__address--main {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
 }
-.address-main:hover, .address-main:focus {
+.footer__address--main:hover, .footer__address--main:focus {
   color: var(--accent-color);
 }
 
@@ -629,7 +629,7 @@ button {
   color: var(--accent-second-color);
 }
 
-.footer-social {
+.footer__title {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -639,37 +639,37 @@ button {
   text-transform: uppercase;
 }
 
-.footer-list-link {
+.media__list__link {
   width: 44px;
   height: 44px;
   border-radius: 50%;
   background-color: rgba(255, 255, 255, 0.1);
   transition: background-color var(--transition);
 }
-.footer-list-link:hover, .footer-list-link:focus {
+.media__list__link:hover, .media__list__link:focus {
   background-color: var(--accent-color);
 }
 
-.footer-list-icon {
+.media__list__icon {
   fill: var(--accent-second-color);
   transition: fill var(--transition);
 }
 
-.footer-adress-social {
+.footer__adress {
   display: flex;
   align-items: baseline;
 }
 
-.footer-icon {
+.footer {
   margin-left: 70px;
 }
 
-.footer-list {
+.media__list {
   flex-wrap: wrap;
   gap: 10px;
 }
 
-.modal-btn-white {
+.portfolio__section__btn {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.63;
@@ -687,22 +687,22 @@ button {
   background: var(--stuff-background-color);
   transition: color var(--transition), background var(--transition);
 }
-.modal-btn-white:hover, .modal-btn-white:focus {
+.portfolio__section__btn:hover, .portfolio__section__btn:focus {
   color: var(--accent-second-color);
   background: var(--accent-color);
 }
 
-.second-section {
+.portfolio__section__nav {
   margin-bottom: 50px;
 }
 
-.works {
+.projects__title_name {
   line-height: 1.9;
   letter-spacing: 0.03em;
   color: var(--primary-text-color);
 }
 
-.projects {
+.projects__title {
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
@@ -711,7 +711,7 @@ button {
   color: var(--secondary-text-color);
 }
 
-.btn-portfolio:not(:last-child) {
+.portfolio__section__modal:not(:last-child) {
   margin-right: 8px;
 }
 
@@ -730,7 +730,7 @@ button {
   gap: 30px;
 }
 
-.our-works {
+.projects {
   padding-left: 24px;
   padding-top: 20px;
   padding-bottom: 20px;
@@ -739,12 +739,12 @@ button {
   border-top: none;
 }
 
-.one-section {
+.portfolio {
   padding-top: 94px;
   padding-bottom: 94px;
 }
 
-.portfolio-list-img {
+.card__link__img {
   position: relative;
   overflow: hidden;
 }
@@ -767,19 +767,19 @@ button {
   color: var(--accent-second-color);
   background-color: rgba(33, 150, 243, 0.9);
 }
-.portfolio-title:hover .overlay,
-.overlay .portfolio-title:focus {
+.card__link:hover .overlay,
+.overlay .card__link:focus {
   transform: translate(0, 0);
 }
 
-.portfolio-title {
+.card__link {
   display: block;
 }
-.portfolio-title:hover, .portfolio-title:focus {
+.card__link:hover, .card__link:focus {
   box-shadow: 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
-.footer-form-input {
+.footer__form__input {
   width: 358px;
   height: 50px;
   color: var(--accent-second-color);
@@ -791,12 +791,12 @@ button {
   margin-right: 12px;
   transition: border-color var(--transition);
 }
-.footer-form-input:focus {
+.footer__form__input:focus {
   border-color: var(--accent-color);
   outline: none;
 }
 
-.footer-form-sumbit {
+.footer__form__sumbit {
   font-weight: 700;
   font-size: 16px;
   line-height: 1.9;
@@ -808,21 +808,21 @@ button {
   height: 50px;
   padding: 10px 28px;
 }
-.footer-form-sumbit:hover, .footer-form-sumbit:focus {
+.footer__form__sumbit:hover, .footer__form__sumbit:focus {
   background-color: #188ce8;
   color: var(--accent-second-color);
 }
 
-.bassement-form-icon {
+.footer__form__icon {
   fill: var(--accent-second-color);
   margin-left: 10px;
 }
 
-.footer-modal-icon {
+.footer__modal__icon {
   display: flex;
   justify-content: center;
 }
 
-.modal-form-footer {
+.footer__modal__form {
   margin-left: 93px;
 }/*# sourceMappingURL=main.css.map */

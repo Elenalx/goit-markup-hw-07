@@ -1,4 +1,4 @@
-.modal-btn-white {
+.portfolio__section__btn {
     @include font($fw: 500, $fs: 16px, $lh: 1.63);
     font-family: inherit;
     border: none;
@@ -23,25 +23,25 @@
         }
 }
 
-.second-section {
+.portfolio__section__nav {
     @extend %align;
     margin-bottom: 50px;
 }
 
-.works {
+.projects__title_name {
     line-height: 1.9;
     letter-spacing: 0.03em;
     color: var(--primary-text-color);
 }
 
-.projects {
+.projects__title {
     @include font($fs: 18px, $lh: 2.0);
     margin-bottom: 4px;
     letter-spacing: 0.06em;
     color: var(--secondary-text-color);
 }
 
-.btn-portfolio:not(:last-child) {
+.portfolio__section__modal:not(:last-child) {
     margin-right: 8px;
 }
 
@@ -60,7 +60,7 @@
     gap: 30px;
 }
 
-.our-works {
+.projects {
     padding-left: 24px;
     padding-top: 20px;
     padding-bottom: 20px;
@@ -70,12 +70,12 @@
 
 }
 
-.one-section {
+.portfolio {
     padding-top: 94px;
     padding-bottom: 94px;
 }
 
-.portfolio-list-img {
+.card__link__img {
     position: relative;
     overflow: hidden;
 }
@@ -99,13 +99,13 @@
     color: var(--accent-second-color);
     background-color: rgba(33, 150, 243, 0.9);
 
-    .portfolio-title:hover &,
-    .portfolio-title:focus {
+    .card__link:hover &,
+    .card__link:focus {
         transform: translate(0, 0);
         }
 }
 
-.portfolio-title {
+.card__link {
     display: block;
 
     &:hover,
@@ -116,7 +116,7 @@
         }
 }
 
-.footer-form-input {
+.footer__form__input {
     width: 358px;
     height: 50px;
     color: var(--accent-second-color);
@@ -134,7 +134,7 @@
         }
 }
 
-.footer-form-sumbit {
+.footer__form__sumbit {
     @include font($fs: 16px, $lh: 1.9);
     @extend %align;
     color: var(--accent-second-color);
@@ -153,16 +153,16 @@
 
 }
 
-.bassement-form-icon {
+.footer__form__icon {
     fill: var(--accent-second-color);
     margin-left: 10px;
 }
 
-.footer-modal-icon {
+.footer__modal__icon {
     display: flex;
     justify-content: center;
 }
 
-.modal-form-footer {
+.footer__modal__form {
     margin-left: 93px;
 }

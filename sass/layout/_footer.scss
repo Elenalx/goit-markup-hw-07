@@ -4,7 +4,7 @@
     padding-bottom: 60px;
 }
 
-.foot-logo {
+.footer__logo {
     @include font($fs: 26px, $lh: 1.19);
     font-family: 'Raleway', sans-serif;
     letter-spacing: 0.03em;
@@ -12,20 +12,20 @@
     margin-bottom: 20px;
 }
 
-.link-footer:not(:last-child) {
+.footer__link:not(:last-child) {
     margin-bottom: 9px;
 }
 
-.address-footer {
+.footer__address {
     font-style: normal;
     margin-top: 20px;
 }
 
-.logo-part-footer {
+.footer__logo--part {
     color: var(--accent-second-color);
 }
 
-.address-main {
+.footer__address--main {
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
@@ -42,7 +42,7 @@
     color: var(--accent-second-color);
 }
 
-.footer-social {
+.footer__title {
     @include font();
     font-family: 'Roboto', sans-serif;
     color: var(--accent-second-color);
@@ -50,7 +50,7 @@
     text-transform: uppercase;
 }
 
-.footer-list-link {
+.media__list__link {
     @extend %align;
     width: 44px;
     height: 44px;
@@ -64,21 +64,21 @@
         }
 }
 
-.footer-list-icon {
+.media__list__icon {
     fill: var(--accent-second-color);
     transition: fill var(--transition);
 }
 
-.footer-adress-social {
+.footer__adress {
     display: flex;
     align-items: baseline;
 }
 
-.footer-icon {
+.footer {
     margin-left: 70px;
 }
 
-.footer-list {
+.media__list {
     @extend %align;
     flex-wrap: wrap;
     gap: 10px;
